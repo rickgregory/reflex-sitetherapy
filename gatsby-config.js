@@ -4,7 +4,7 @@ module.exports = {
   siteMetadata: {
     title: "Sitetherapy",
     description: "Starter for Reflex.",
-    siteUrl: process.env.SITE_URL || "http://localhost:8000",
+    siteUrl: process.env.SITE_URL || "http:beta.sitetherapy.net",
   },
   plugins: [
     "gatsby-plugin-netlify-cms",
