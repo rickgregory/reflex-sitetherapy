@@ -2,7 +2,7 @@ require(`dotenv`).config()
 
 module.exports = {
   siteMetadata: {
-    title: "Reflex",
+    title: "Sitetherapy",
     description: "Starter for Reflex.",
     siteUrl: process.env.SITE_URL || "http://localhost:8000",
   },

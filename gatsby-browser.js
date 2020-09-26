@@ -1,1 +1,2 @@
-require("typeface-inter")
+require("typeface-inter");
+require("fontsource-nanum-gothic");
