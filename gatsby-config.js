@@ -1,10 +1,10 @@
-require(`dotenv`).config()
+require(`dotenv`).config();
 
 module.exports = {
   siteMetadata: {
     title: "Sitetherapy",
     description: "Starter for Reflex.",
-    siteUrl: process.env.SITE_URL || "http://localhost:8000",
+    siteUrl: process.env.SITE_URL || "http://beta.sitetherapy.net",
   },
   plugins: [
     "@reflexjs/gatsby-theme-base",
@@ -16,4 +16,4 @@ module.exports = {
       },
     },
   ],
-}
+};
